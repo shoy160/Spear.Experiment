@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "09.samples", "09.samples", "{B43BADAD-B4CD-4217-9B05-E417DCA340AB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Spear.MachineLearning.Demo", "samples\Spear.MachineLearning.Demo\Spear.MachineLearning.Demo.csproj", "{1D900B46-1452-429F-8A85-FEBF32DBAA14}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Spear.ExperimentML.Model", "Spear.ExperimentML.Model\Spear.ExperimentML.Model.csproj", "{CE0B01F9-9AE9-484D-8D0E-6797BD018E8A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Spear.ExperimentML.ConsoleApp", "Spear.ExperimentML.ConsoleApp\Spear.ExperimentML.ConsoleApp.csproj", "{EA6D5EE5-1AA1-4EDD-BD2E-03FFBF7DD2D1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Spear.ExperimentML.VCode", "samples\Spear.ExperimentML.VCode\Spear.ExperimentML.VCode.csproj", "{2B4B7960-9BFB-4188-B1BA-570B869EA849}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spear.Gateway.GraphQL", "samples\Spear.Gateway.GraphQL\Spear.Gateway.GraphQL.csproj", "{32252F2B-FA67-445B-B78A-EAC802C9E72A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D900B46-1452-429F-8A85-FEBF32DBAA14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D900B46-1452-429F-8A85-FEBF32DBAA14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D900B46-1452-429F-8A85-FEBF32DBAA14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D900B46-1452-429F-8A85-FEBF32DBAA14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE0B01F9-9AE9-484D-8D0E-6797BD018E8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE0B01F9-9AE9-484D-8D0E-6797BD018E8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE0B01F9-9AE9-484D-8D0E-6797BD018E8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE0B01F9-9AE9-484D-8D0E-6797BD018E8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA6D5EE5-1AA1-4EDD-BD2E-03FFBF7DD2D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA6D5EE5-1AA1-4EDD-BD2E-03FFBF7DD2D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA6D5EE5-1AA1-4EDD-BD2E-03FFBF7DD2D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA6D5EE5-1AA1-4EDD-BD2E-03FFBF7DD2D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B4B7960-9BFB-4188-B1BA-570B869EA849}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B4B7960-9BFB-4188-B1BA-570B869EA849}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B4B7960-9BFB-4188-B1BA-570B869EA849}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B4B7960-9BFB-4188-B1BA-570B869EA849}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32252F2B-FA67-445B-B78A-EAC802C9E72A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32252F2B-FA67-445B-B78A-EAC802C9E72A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32252F2B-FA67-445B-B78A-EAC802C9E72A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32252F2B-FA67-445B-B78A-EAC802C9E72A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1D900B46-1452-429F-8A85-FEBF32DBAA14} = {B43BADAD-B4CD-4217-9B05-E417DCA340AB}
+		{2B4B7960-9BFB-4188-B1BA-570B869EA849} = {B43BADAD-B4CD-4217-9B05-E417DCA340AB}
+		{32252F2B-FA67-445B-B78A-EAC802C9E72A} = {B43BADAD-B4CD-4217-9B05-E417DCA340AB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {475838D6-B025-453B-B08C-01F5B0CBAED5}
+	EndGlobalSection
+EndGlobal
